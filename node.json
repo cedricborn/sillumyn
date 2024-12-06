@@ -1,0 +1,42 @@
+{
+    "name": "Looper",
+    "options": [{
+        "title": "Video",
+        "ui_width": 8,
+        "name": "video",
+        "type": "resource",
+        "valid": ["video"],
+        "default": "test.mp4"
+    }, {
+        "title": "Audio",
+        "ui_width": 4,
+        "name": "audio",
+        "info": "play audio",
+        "type": "boolean",
+        "default": false
+    },
+        {
+            "title": "Video Duration",
+            "ui_width": 4,
+            "name": "video_duration",
+            "type": "number",
+            "info": "Enter the video duration in seconds",
+            "default": 20
+        },
+        {
+            "title": "Event Timing",
+            "ui_width": 4,
+            "name": "event_timing",
+            "type": "number",
+            "info": "Enter the event duration in seconds",
+            "default": 10
+        },
+        {
+            "title": "Event Duration",
+            "ui_width": 4,
+            "name": "event_duration",
+            "type": "number",
+            "info": "Enter the event duration in seconds",
+            "default": 4
+        }]
+}
