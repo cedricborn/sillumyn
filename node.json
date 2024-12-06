@@ -19,7 +19,7 @@
             "title": "Video Duration",
             "ui_width": 4,
             "name": "video_duration",
-            "type": "number",
+            "type": "duration",
             "info": "Enter the video duration in seconds",
             "default": 20
         },
@@ -27,7 +27,7 @@
             "title": "Event Timing",
             "ui_width": 4,
             "name": "event_timing",
-            "type": "number",
+            "type": "duration",
             "info": "Enter the event duration in seconds",
             "default": 10
         },
@@ -35,7 +35,7 @@
             "title": "Event Duration",
             "ui_width": 4,
             "name": "event_duration",
-            "type": "number",
+            "type": "duration",
             "info": "Enter the event duration in seconds",
             "default": 4
         }]
